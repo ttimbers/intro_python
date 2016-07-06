@@ -60,6 +60,37 @@ import matplotlib
 
 numpy, scipy and matplotlib are some of the important libraries that come with Anaconda that we will be using. Now instead of using ```Ctrl + enter ``` to run your code, try ```shift + enter```. Using this, Jupyter will run your code *and* create a new cell automatically. If this code runs successfully, you should have a successful installation of Anaconda!
 
+## Installing Rodeo
+Rodeo is an easy-to-use Python IDE (Integrated Development Environment) based on Jupyter. Rodeo will allow us to write our Python code and run it, and comes with other data-science specific features.
+
+
+#### Mac Users
+1. Download Rodeo [here](https://www.yhat.com/products/rodeo/downloads). If your download doesn't start automatically, download the Mac version.
+2. Double-click the Rodeo-mac.dmg file you downloaded.
+3. Drag the Rodeo app icon to your Applications folder.
+4. Double-click the Rodeo icon in your Applications folder.
+
+#### Linux Users
+1. Download Rodeo [here](https://www.yhat.com/products/rodeo/downloads). If your download doesn't start automatically, select the appropriate(32-bit or 64-bit) version for Linux.
+2. Unzip Rodeo into your applications directory (i.e. ```~/bin/```).
+3. Add the ```Rodeo``` command to your path, then execute it to start Rodeo!
+
+You can also execute the following commands in terminal instead:
+```
+wget -O tmp.zip https://www.yhat.com/products/rodeo/downloads/linux_64
+sudo unzip tmp.zip -d /usr/local/bin/ && rm tmp.zip
+sudo ln -s /usr/local/bin/Rodeo-linux-x64/Rodeo /usr/local/bin
+```
+Change 64 to 32 in the first and last command if you have a 32-bit system.
+
+#### Windows Users
+1. Download Rodeo [here](https://www.yhat.com/products/rodeo/downloads). If your download doesn't start automatically, select and download the appropriate (32-bit or 64-bit) Windows version.
+2. Open the installer and install with defaults.
+3. Launch Rodeo from your start-menu (or where you installed it).
+
+## Installing a Text Editor
+We need a text editor to be able to write complete applications. We will be using the open-source editor Atom.
+
 ## Three Useful Terminal Commands
 
 
