@@ -12,7 +12,7 @@
 
 We will be using Python for a large part of the program, including many popular 3rd party Python libraries for scientific computing. [__Anaconda__](https://docs.continuum.io/) is an easy-to-install bundle of Python and most of these libraries. We __strongly recommend__ that you use Anaconda for this program. If you insist on using your own Python setup instead of Anaconda, we will not be able to provide the same level of support with installation.
 
-For this program we are using __Python 3__ , not __Python 2__, so please chose the Anaconda versions that include Python 3.5
+For this program we are using __Python 3__ , not __Python 2__, so please choose the Anaconda versions that include Python 3.5
 
 #### Mac/Linux Users
 
